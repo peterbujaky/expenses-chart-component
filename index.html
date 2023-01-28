@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Expenses chart component</title>
 
@@ -17,24 +21,26 @@
 <body>
 <div class="wrapper">
   
-    My balance
-    $921.48
+    <div class="header">
+      <p class="header__text">My balance</p>
+      <h1 class="header__balance">$921.48</h1>
+      <img src="images/logo.svg" alt="logo">
+    </div>
   
-    Spending - Last 7 days
-  
-    mon
-    tue
-    wed
-    thu
-    fri
-    sat
-    sun
-  
-    Total this month
-    $478.33
-  
-    +2.4%
-    from last month
+    <div class="main">
+      <h2 class="main__title">Spending - Last 7 days</h2>
+      <p class="main__days">mon</p>
+      <p class="main__days">tue</p>
+      <p class="main__days">wed</p>
+      <p class="main__days">thu</p>
+      <p class="main__days">fri</p>
+      <p class="main__days">sat</p>
+      <p class="main__days">sun</p>
+      <p class="main__text">Total this month</p>
+      <h2 class="main__sum">$478.33</h2>
+      <h3 class="main__percentage">+2.4%</h3>
+      <p class="main__text">from last month</p>
+    </div>
   
 </div>
 </body>
