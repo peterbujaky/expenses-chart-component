@@ -14,12 +14,16 @@ body {
   padding: 6.7rem 4.26% 6.6rem 4.26%;
 }
 
+header, main {
+  border-radius: 1rem;
+}
+
 header {
   background-color: #EC755D;
-  border-radius: 1rem;
   color: white;
   display: flex;
   flex-direction: column;
+  margin: 0 0 1.8rem 0;
   padding: 2rem;
   position: relative;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
@@ -42,6 +46,39 @@ header {
   top: 50%;
   transform: translateY(-50%);
   width: 6rem;
+}
+
+main {
+  background-color: #FFFBF6;
+  padding: 2rem 2.4rem;
+}
+
+main h2, main h3 {
+  color: #382314;
+}
+
+main p {
+  color: #92857A;
+}
+
+.main__title {
+  font-size: 2.4rem;
+}
+
+.main__days {
+  font-size: 1.2rem;
+}
+
+.main__text {
+  font-size: 1.5rem;
+}
+
+.main__sum {
+  font-size: 3rem;
+}
+
+.main__percentage {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
