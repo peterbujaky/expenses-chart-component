@@ -58,12 +58,24 @@ header {
     width: 6rem;
 }
 
+// LINE BREAK
+
+.line-break {
+    background-color: $cream-BG;
+    height: .2rem;
+    width: 100%;
+    margin: 2.4rem 0 2.4rem 0;
+
+}
+
 // MAIN SECTION
 
 main {
     background-color: $card-white;
-    padding: 2rem 2.4rem;
+    padding: 2.4rem 2rem;
 }
+
+// MAIN__FONT STYLES
 
 main h2, main h3 {
     color: $dark-brown;
@@ -75,6 +87,7 @@ main p {
 
 .main__title {
     font-size: 2.4rem;
+    margin: 0 0 5.2rem 0;
 }
 
 .main__days {
@@ -87,11 +100,51 @@ main p {
 
 .main__sum {
     font-size: 3rem;
+    left: 0;
+    top: 50%;
 }
 
 .main__percentage {
     font-size: 2rem;
 }
+
+.main__chart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__total {
+    position: relative;
+    min-height: 6.3rem;
+}
+
+// MAIN BOTTOM SECTION
+
+.main__total * {
+    position: absolute;
+}
+
+.main__text:nth-of-type(1) {
+    left: 0;
+    top: 0;
+}
+
+.main__text:nth-of-type(2) {
+    right: 0;
+    bottom:  0;
+}
+
+.main__sum {
+    left: 0;
+    bottom: 0;
+}
+
+.main__percentage {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 
 
